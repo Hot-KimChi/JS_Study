@@ -1,1 +1,7 @@
-alert("hi")
+const a = 2
+const b = 1
+
+console.log(a + b)
+console.log(a * b)
+console.log(a / b)
+
