@@ -1,3 +1,5 @@
+alert("hi")
+
 const a = 2
 const b = 1
 const dayOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"]
