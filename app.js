@@ -1,14 +1,17 @@
-alert("hi")
+const a = 2;
+const b = 1;
 
-const a = 2
-const b = 1
-const dayOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"]
+console.log(a + b);
+console.log(a * b);
+console.log(a / b);
 
-console.log(a + b)
-console.log(a * b)
-console.log(a / b)
-console.log(dayOfWeek)
-dayOfWeek.push("sun")
+const myName = "nico";
+console.log("hello " + myName);
 
-console.log(dayOfWeek)
+
+const dayOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+console.log(dayOfWeek);
+
+dayOfWeek.push("sun");
+console.log(dayOfWeek);
 
