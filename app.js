@@ -1,3 +1,4 @@
+// variables 만드는 2가지 방법
 let a = 2;
 const b = 1;
 
