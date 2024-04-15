@@ -14,6 +14,11 @@ console.log("hello " + myName);
 myName = "nicolas"
 console.log("your new name is " + myName);
 
+const amIFat = false;
+console.log(amIFat);
+
+let something;
+console.log(something)
 
 const dayOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
 console.log(dayOfWeek);
