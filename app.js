@@ -25,3 +25,5 @@ console.log(dayOfWeek);
 
 dayOfWeek.push("sun");
 console.log(dayOfWeek);
+
+
