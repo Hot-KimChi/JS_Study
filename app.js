@@ -20,10 +20,25 @@ console.log(amIFat);
 let something;
 console.log(something)
 
+// array에서 데이터 받아오기
 const dayOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
 console.log(dayOfWeek);
 
+
+// Add one more day to the array
 dayOfWeek.push("sun");
 console.log(dayOfWeek);
 
+const toBuy = ["potato", "tomato", "pizza"];
+toBuy.push("kimbab")
+console.log(toBuy[0])
 
+
+// objects check
+const playerName = "nico";
+const playerPoints = 121212;
+const playerHandsome = false
+const playerFat = "little bit"
+
+// 아래와 같은 array 구조는 좋아보이지 않다.
+const player = ["nico", 1212, false, "little bit"]
