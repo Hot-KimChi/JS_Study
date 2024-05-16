@@ -40,5 +40,16 @@ const playerPoints = 121212;
 const playerHandsome = false
 const playerFat = "little bit"
 
-// 아래와 같은 array 구조는 좋아보이지 않다.
-const player = ["nico", 1212, false, "little bit"]
+const player = {
+    name: "nico",
+    points: 10,
+    fat: true,
+};
+
+console.log(player);
+
+player.fat = false;
+console.log(player)
+
+player.points = player.points + 15
+console.log(player)
