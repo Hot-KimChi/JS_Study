@@ -40,6 +40,7 @@ const playerPoints = 121212;
 const playerHandsome = false
 const playerFat = "little bit"
 
+// property
 const player = {
     name: "nico",
     points: 10,
