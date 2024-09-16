@@ -1,3 +1,7 @@
-const title = document.getElementById("title")
+// const title = document.getElementById("title")
 
-title.innerText = "AOP database"
+// title.innerText = "Hi...."
+
+const hellos = document.getElementsByClassName("hello");
+
+console.log(hellos)
